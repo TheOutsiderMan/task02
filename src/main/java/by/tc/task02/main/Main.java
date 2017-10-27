@@ -18,7 +18,7 @@ public class Main {
 			List<Entity> entities = entityService.read();
 			EntityPrinter.printEntities(entities);
 		} catch (ServiceException e) {
-			throw new RuntimeException();
+			System.err.println(e);;
 		}
 	}
 
