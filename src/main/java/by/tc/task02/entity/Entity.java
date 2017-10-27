@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Entity {
+	
 	private String name;
 	private Map<String, String> attributes;
 	private String content;
